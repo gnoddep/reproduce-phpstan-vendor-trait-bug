@@ -1,0 +1,17 @@
+{
+    "name": "peter/test",
+    "autoload": {
+        "psr-4": {
+            "Peter\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/symfony": "3.4.39"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.19",
+        "phpstan/phpstan-deprecation-rules": "^0.12.2",
+        "phpstan/phpstan-strict-rules": "^0.12.2",
+        "phpstan/phpstan-symfony": "^0.12.6"
+    }
+}
